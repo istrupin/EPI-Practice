@@ -59,7 +59,4 @@ namespace EPI_Practice.Test.Primitives.Parity.Variants
         }
     }
 
-
-
-
 }
