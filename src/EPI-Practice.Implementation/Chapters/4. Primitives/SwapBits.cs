@@ -1,6 +1,6 @@
 using System;
 
-namespace EPI_Practice.Implementation.Chapters.Primitives.SwapBits
+namespace EPI_Practice.Implementation.Chapters.Primitives
 {
     public static class SwapBits
     {
