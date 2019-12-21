@@ -1,6 +1,6 @@
 using System;
 
-namespace EPI_Practice.Implementation.Chapters.Primitives.Parity.Variants
+namespace EPI_Practice.Implementation.Chapters.Primitives.Parity
 {
     public static class ModPow2
     {

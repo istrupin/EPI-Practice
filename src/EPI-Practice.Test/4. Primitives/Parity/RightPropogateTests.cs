@@ -1,11 +1,11 @@
 using System;
 using System.Linq;
 using System.Text;
-using EPI_Practice.Implementation.Chapters.Primitives.Parity.Variants;
+using EPI_Practice.Implementation.Chapters.Primitives.Parity;
 using FluentAssertions;
 using Xunit;
 
-namespace EPI_Practice.Test.Primitives.Parity.Variants
+namespace EPI_Practice.Test.Primitives.Parity
 {
     public class RightPropogateTests
     {
