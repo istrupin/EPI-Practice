@@ -6,11 +6,8 @@ namespace EPI_Practice.Implementation.Chapters.Primitives
     {
         public static UInt64 Swap(UInt64 x, int i, int j)
         {
-            var ith = x.ExtractBit(i);
-            var jth = x.ExtractBit(j);
             var result = x;
-
-            if (ith != jth)
+            if (x.ExtractBit(i) != x.ExtractBit(j))
             {
                 //invert bits, XOR operator ^
                 //correct bitmask is 2 to the nth power
@@ -24,6 +21,7 @@ namespace EPI_Practice.Implementation.Chapters.Primitives
             return result;
         }
 
+        ///extracts with 0 as LSB
         private static ulong ExtractBit(this UInt64 x, int n)
         {
             //>>> operator does not exist in C#
@@ -32,6 +30,4 @@ namespace EPI_Practice.Implementation.Chapters.Primitives
             return shifted&1;
         }
     }
-
-    
 }
