@@ -2,7 +2,7 @@ using System;
 using FluentAssertions;
 using Xunit;
 
-namespace EPI_Practice.Test.Primitives.SwapBits
+namespace EPI_Practice.Test.Primitives
 {
     public class SwapBitsTests
     {
